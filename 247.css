@@ -1,0 +1,54 @@
+@font-face {
+    font-family: AgencyFB;
+    src: url(../font/Agency_FB.ttf);
+}
+
+body {
+    font-size: 13px;
+    color:#333
+}
+
+p {
+    padding: 10px;
+}
+
+#wrapper {
+	font-family: AgencyFB;
+}
+
+#header {
+    background: #FF6633;
+}
+
+.navbar {
+    border-left: 0px;
+}
+
+#content {
+    background: #FF33FF;
+}
+
+#footer {
+    background: #33FF66;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width: @screen-sm-min) {
+	body {
+		background-color: green;
+	}	
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media screen and (min-width: @screen-md-min) {
+	body {
+		background-color: blue;
+	}	
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: @screen-lg-min) {
+	body {
+		background-color: red;
+	}	
+}
