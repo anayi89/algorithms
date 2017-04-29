@@ -2,7 +2,7 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-public class aAndB {  
+public class aPlusB {  
 	public static void main(String[] args) {
 		JFrame a = new JFrame("A + B");
 
