@@ -2,6 +2,7 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
+// Adds the numbers that are entered in the text fields.
 public class aPlusB {  
 	public static void main(String[] args) {
 		JFrame a = new JFrame("A + B");
